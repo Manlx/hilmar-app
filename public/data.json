@@ -1,0 +1,139 @@
+{
+    "Craftsman":[
+        {
+            "Name":"Anya",
+            "Jarowa":"25",
+            "WinCasaPartners":"SD",
+            "WinCasaDiscount":"10%"
+        },
+    
+        {
+            "Name":"Anton",
+            "Jarowa":"5%",
+            "WinCasaPartners":"SD",
+            "WinCasaDiscount":"50"
+        },
+    
+        {
+            "Name":"Bendicht",
+            "Jarowa":"SD",
+            "WinCasaPartners":"70",
+            "WinCasaDiscount":"12%"
+        },
+    
+        {
+            "Name":"Cyril",
+            "Jarowa":"123",
+            "WinCasaPartners":"SD",
+            "WinCasaDiscount":"5%"
+            
+        },
+    
+        {
+            "Name":"Eggimans",
+            "Jarowa":"55",
+            "WinCasaPartners":"SD",
+            "WinCasaDiscount":"11%"
+        },
+    
+        {
+            "Name":"Hennie",
+            "Jarowa":"20",
+            "WinCasaPartners":"35",
+            "WinCasaDiscount":"15%"
+        },
+    
+        {
+            "Name":"Ken",
+            "Jarowa":"65",
+            "WinCasaPartners":"54",
+            "WinCasaDiscount":"5%"
+        },
+    
+        {
+            "Name":"Sophy",
+            "Jarowa":"57",
+            "WinCasaPartners":"0",
+            "WinCasaDiscount":"10%"
+        },
+    
+        {
+            "Name":"thomas",
+            "Jarowa":"SD",
+            "WinCasaPartners":"55",
+            "WinCasaDiscount":"5"
+        },
+    
+        {
+            "Name":"Tim",
+            "Jarowa":"56",
+            "WinCasaPartners":"SD",
+            "WinCasaDiscount":"9%"
+        },
+    
+        {
+            "Name":"Vani",
+            "Jarowa":"70",
+            "WinCasaPartners":"60",
+            "WinCasaDiscount":"10%"
+        },
+    
+        {
+            "Name":"Dominik",
+            "Jarowa":"55",
+            "WinCasaPartners":"SD",
+            "WinCasaDiscount":"15%"
+        },
+    
+        {
+            "Name":"Iryna",
+            "Jarowa":"50",
+            "WinCasaPartners":"56",
+            "WinCasaDiscount":"3%"
+        },
+
+        {
+            "Name":"Jordan Testy",
+            "Jarowa":"50",
+            "WinCasaPartners":"15%",
+            "WinCasaDiscount":"3%"
+        },
+        {
+            "Name":"Peter Testificate",
+            "Jarowa":"50",
+            "WinCasaPartners":"30%",
+            "WinCasaDiscount":"20%"
+        },
+        {
+            "Name":"Hildom Testiffy",
+            "Jarowa":"90",
+            "WinCasaPartners":"69%",
+            "WinCasaDiscount":"11%"
+        },
+        {
+            "Name":"Jeremy Madeup",
+            "Jarowa":"420",
+            "WinCasaPartners":"15%",
+            "WinCasaDiscount":"SD"
+        },
+        {
+            "Name":"Jed TripleMakeup",
+            "Jarowa":"120",
+            "WinCasaPartners":"25%",
+            "WinCasaDiscount":"1"
+        },
+        {
+            "Name":"Ted Bendy",
+            "Jarowa":"SD",
+            "WinCasaPartners":"25%",
+            "WinCasaDiscount":"SD"
+        },
+        {
+            "Name":"Jaykob",
+            "Jarowa":"SD",
+            "WinCasaPartners":"25",
+            "WinCasaDiscount":"69%"
+        }
+
+    ]
+}

@@ -1,26 +1,49 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div class="bigBod">
+    <display-list-block :DisplayData="this.Craftsman" :TitleObj="this.TitleObj"/>
+    <data-filter @SortFunction="this.SortFunc" />
+  </div>
+  
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import $ from 'jquery'
+import DisplayListBlock from './components/DisplayListBlock.vue';
+import DataFilter from './components/dataFilter.vue';
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    DisplayListBlock,
+    DataFilter
+  },
+  data:function(){
+    return {
+      Craftsman:{},
+      TitleObj:{Name : `Name`, Jarowa: 'Jarowa', WinCasaPartners: `WinCasaPartners`, WinCasaDiscount: `WinCasaDiscount`}
+    }
+  },
+  methods:{
+    getData:function(){
+      let self = this;
+      $.getJSON("data.json",
+        function (data) {
+          // console.log(data)
+          self.Craftsman = data.Craftsman
+        }
+      );
+    },
+    SortFunc:function(SortMeth,Priorty,Group){
+      SortMeth(this.Craftsman,Priorty,Group)
+    }
+  },
+  created:function(){
+    this.getData();
   }
 }
 </script>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+<style scoped>
+  .bigBod{
+    margin: auto;
+  }
 </style>
