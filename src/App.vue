@@ -25,7 +25,7 @@ export default {
   methods:{
     getData:function(){
       let self = this;
-      $.getJSON("data.json",
+      $.getJSON("/data.json",
         function (data) {
           // console.log(data)
           self.Craftsman = data.Craftsman
